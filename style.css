@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+    margin: 0 8%;
+}
+.container .box-b ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    gap: 15px;
+}
+.container .box-b ul a{
+    text-decoration: none;
+    gap: 5px;
+    color: #585858;
+}
+.container .box-c button{
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #1D4ED8;
+    border-radius: 5px;
+    border: none;
+
+}
