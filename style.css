@@ -31,11 +31,14 @@
 /* banner section start  */
 .banner{
     text-align: center;
-    background-image: url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    background-image: linear-gradient(to right,
+rgba(0,0,0,0.9) 0%,
+rgba(0,0,0,0.6) 40%,
+transparent 100%), url('./B14-A01-DevConf-2026/assets/banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     align-items: center; 
     display: flex;
     justify-content: center;
@@ -54,6 +57,7 @@
     font-size: 20px;
     color: #e5e5e5;
     margin-bottom: 45px;
+    width: 610px;
 }
 .box-d button{
     padding: 10px 20px;
@@ -64,5 +68,64 @@
     border: none;
     border-radius: 5px;
     margin-top: 30%;
+}
+/* invited speakers section start  */
+.speakers{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0px auto; 
+    padding: 30px;   
+}
+.speakers h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.container-b{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+}
+
+.speaker-card{
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    
+}
+.speaker-card img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    
+}
+
+.speaker-card h5{
+    color: #2563EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.speaker-card h3{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.speaker-card p{
+    color: #575757;
+    font-size: 13px;
+    padding: 10px;
+}
+/* pricing card section start  */
+.container-c .all-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
