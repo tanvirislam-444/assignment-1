@@ -159,7 +159,7 @@ color:#575757;
 padding: 10px;
 }
 .box-f button{
-    padding: 10px 100px;
+    padding: 10px 90px;
     background-color:#ffffff;
     color: #2563EB;
     border-radius: 5px;
@@ -199,5 +199,92 @@ margin-right: 100px;
   color:  #93C5FD;
   padding: 10px;
 }
+.box-2 h5, 
+.box-1 h5, 
+.box-3 h5{
+border-bottom: 1px solid #585858;
+margin-bottom: 20px;
+} 
+/* challenging part start  */
+.challenge-part{
+    background-image:linear-gradient(to right,
+rgba(0,0,0,0.5) 0%,
+rgba(0,0,0,0.5) 0%,
+transparent 100%), url(./B14-A01-DevConf-2026/assets/background-a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    align-items: center; 
+    display: flex;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.container-e{
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    font-style: italic;
+}
+.part-a h1{
+color: #ffffff;
+width: 400px;
+padding: 10px;
+}
+.part-a h1 span{
+    color: #1D4ED8;
+}
+.part-a p{
+    color: #ffffff;
+    padding: 10px;
+}
+.part-a button{
+    margin: 20px 0px 0px 10px;
+    padding:8px 18px ;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background:linear-gradient(
+        to right,
+        rgb(48, 74, 220),
+        rgb(242, 88, 132)
+        );  
+    border: 1px solid rgba(255,255,255);
+}
+.part-b{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    color: #ffffff;
+    align-items: center;
+    margin: 0px auto;
+}
+.part-b div{
+    background-color: rgba(169, 169, 169, 0.178);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #2563eb;
+    border: 1px solid rgba(255,255,255);
+}
+.part-b div h2{
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.part-b div h5{
+    text-align: center;
+    opacity: 0.8;
+}
+.part-b div:hover{
+    box-shadow: 0 0 35px #3b82f6;
+}
+.part-a button:hover{
+box-shadow: 0 0 35px #3b82f6;
+}
+
 
 
