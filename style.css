@@ -285,6 +285,23 @@ padding: 10px;
 .part-a button:hover{
 box-shadow: 0 0 35px #3b82f6;
 }
-
-
+/* footer section start  */
+footer .container-f{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #0D1B2A;
+padding: 10px 8%;
+}
+.copyright p{
+    border-top: 1px solid #ffffff93;
+    color: #ffffff95;
+    background-color: #0d1b2a;
+    text-align: center;
+    padding: 10px;
+}
+.container-f .section a i{
+padding: 10px;
+font-size: 25px;
+}
 
